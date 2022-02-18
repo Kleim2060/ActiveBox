@@ -19,6 +19,10 @@ body._active .header_logo{
     margin-left: 1.5rem;
 }
 
+body._active .header__inner{
+    position: fixed;
+}
+
 .page{
     overflow: hidden;
 }
@@ -527,6 +531,10 @@ p {
 .burger::before{
     bottom: 0;
     transition: all 0.3s ease 0s;
+}
+
+.burger._active{
+    position: fixed;
 }
 
 .burger._active span{
